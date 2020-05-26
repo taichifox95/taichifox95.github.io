@@ -11,4 +11,6 @@ tags:
 
 # Laser Defender
 
-## Hi! This is my first Unity game on GitHub. Have a try!
+## Hi! This is my first Unity game on GitHub. Have a try! 
+
+If the container does not load correctly, please click [here](https://taichifox95.github.io/laser_defender)
