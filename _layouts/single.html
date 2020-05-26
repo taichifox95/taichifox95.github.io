@@ -41,14 +41,14 @@ layout: default
               {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
             </nav>
           </aside>
-        {% endif %}
-        {% if page.unity_dir_long %}
-          {% include page__unity_long.html %}
-        {% endif %}
-        {% if page.unity_dir %}
-          {% include page__unity.html %}
-        {% endif %}
-        {{ content }}
+          {{ content }}
+          {% endif %}
+          {% if page.unity_dir_long %}
+            {% include page__unity_long.html %}
+          {% endif %}
+          {% if page.unity_dir %}
+            {% include page__unity.html %}
+          {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
