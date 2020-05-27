@@ -1,11 +1,24 @@
 ---
 title: "TileVania"
 date: 2020-5-26
-unity_dir_long: tilevania
+unity_dir: tilevania
 categories:
   - General
 tags:
   - Unity Game
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 ---
 
 
