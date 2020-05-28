@@ -1,5 +1,5 @@
 ---
-title: "Laser Defender 3D"
+title: "LaserDefender3D"
 date: 2020-5-28
 unity_dir: laser_defender_3d
 categories:
